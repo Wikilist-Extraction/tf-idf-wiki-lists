@@ -5,7 +5,7 @@ module.exports = {
   tfIdf: tfIdf,
   csvWriter: csv,
   resources: {
-  	donalds: require("../resources/resources-donalds"),
-  	nba: require("../resources/resources-nba")
+  	donalds: require("./resources/resources-donalds"),
+  	nba: require("./resources/resources-nba")
   }
 };
